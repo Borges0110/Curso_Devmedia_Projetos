@@ -1,7 +1,4 @@
 # DevMedia
 
-Exercício:
+Repositório dos meus primeiros projetos do curso de HTML e CSS da DevMedia.
 
-Projeto Parque da Luz
-
-Primeiro repositório.
