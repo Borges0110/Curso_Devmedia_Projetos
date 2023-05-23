@@ -44,3 +44,23 @@ h3 {
     background-color: #00000085;
     padding: 20px 50px;
 }
+
+/*================== secao conteudo ====================*/
+
+.secao-conteudo {
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
