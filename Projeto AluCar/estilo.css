@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #fff;
+}
+
+h3 {
+    margin: 0;
+}
+
+/*==================== topo ===================*/
+
+.topo {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.topo p {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.largura-limitada {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*================= secao capa de fundo ==================*/
+
+.secao-background-capa {
+    min-height: 500px;
+    background-image: url("./img/capa.jpg");
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    background-color: #00000085;
+    padding: 20px 50px;
+}
