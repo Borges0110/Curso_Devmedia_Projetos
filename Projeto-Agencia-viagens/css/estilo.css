@@ -216,7 +216,7 @@ button {
     margin: 0 6px;
 }
 
-.secao-imagens img, .secao-quatro-imagens {
+.secao-imagens img, .secao-quatro-imagens img{
     width: 100%;
     height: 100%;
     object-fit: cover;
