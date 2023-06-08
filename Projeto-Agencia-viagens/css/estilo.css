@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+.limita-secao {
+    max-width: 1024px;
+}
+
+/*===================== topo =======================*/
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.topo img {
+    width: 32px;
+    height: 32px;
+}
+
+.topo p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5d15d1;
+    margin: 0 0 0 10px;
+}
+
+/*====================== secao orcamento =========================*/
+
+.orcamento-fundo {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/imagens/bahia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.orcamento-area {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+.orcamento-cabecalho {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orcamento-cabecalho .icone-aviao {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.orcamento-cabecalho .orcamento-descricao {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 0 0 0 5px;
+}
+
+/* ====================== formulario =================== */
+
+.area-formulario {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+
+.area-formulario .formulario-subtitulo {
+    font-size: 22px;
+    margin: 0 0 24px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-size: 16px;
+}
+
+.formulario input, .formulario select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+.formulario input {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.formulario select{
+    padding: 0 3px;
+}
+
+.formulario-duplo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-duplo div {
+    width: calc(50% - 10px);
+}
+
+.radio {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.radio div {
+    width: 120px !important;
+    display: flex;
+    align-items: center;
+
+}
+
+.radio input {
+    width: 15px;
+}
+
+.radio label {
+    margin: 0 0 0 8px;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    font-size: 16px;
+    border: none;
+    margin: 12px 0 0 0;
+    background-color: #5d15d1;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ========================= secao ofertas ============================ */
+
+.secao-ofertas, .secao-natureza {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+
+.secao-titulo, .natureza-titulo {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.secao-descricao, .natureza-descricao {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.secao-descricao span {
+    font-weight: bold;
+}
+
+/*========== ofertas imagens ============*/
+
+.secao-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao-imagem-destaque {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.secao-quatro-imagens {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.secao-quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.secao-imagens img, .secao-quatro-imagens {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secao-imagem-destaque figcaption, .secao-quatro-imagens figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 17px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.natureza-imagens {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza-imagem {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.natureza-imagem img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.natureza-imagem div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.natureza-imagem h3 {
+    font-size: 16px;
+}
+
+.natureza-imagem p {
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+    margin: 15px 0 0 0;
+}
+
+/* ================ rodape ================== */
+
+.rodape {
+    width: 100%;
+    background-color: #5d15d1;
+    margin: 32px 0 0 0;
+}
+
+.area-rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.area-contato {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.area-contato .contato-titulo {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 15px 0;
+}
+
+.area-contato div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.area-contato img {
+    width: 18px;
+}
+
+.area-contato span {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 10px 0 0;
+}
+
+/*================================================*/
+
+@media(max-width: 1100px)
+{
+    .limita-secao {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px)
+{
+    button {
+        width: 100%;
+    }
+
+    .secao-imagens {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .secao-quatro-imagens {
+        width: 100%;
+    }
+
+    .secao-quatro-imagens figure {
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+
+    .natureza-imagens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .natureza-imagens .natureza-imagem {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .area-contato {
+        width: 250px;
+    }
+}
+
+@media(max-width: 540px)
+{
+    .formulario-duplo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario-duplo div {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
